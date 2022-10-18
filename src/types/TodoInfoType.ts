@@ -1,7 +1,9 @@
-import { ItemType } from "./UserInfoType";
+import { User } from './UserInfoType';
 
-export interface TodoInfo {
-  title: string;
-  completed: boolean;
-  user: ItemType;
+export interface Todo {
+  id: number,
+  userId: number,
+  title: string,
+  completed: boolean,
+  user: User | null,
 }
