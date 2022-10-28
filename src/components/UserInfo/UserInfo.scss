@@ -1,1 +1,8 @@
-//
+.UserInfo {
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+
+  &__name {
+    margin: 5px auto;
+  }
+}

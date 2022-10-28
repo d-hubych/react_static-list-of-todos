@@ -1,1 +1,22 @@
-//
+.TodoInfo {
+  height: 150px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 0, 0.26);
+
+  &__title {
+    margin: 4px 0;
+    font-size: 0.8rem;
+    color: #fff;
+  }
+
+  &--completed {
+    background-color: rgb(146, 209, 146);
+  }
+
+  &__status {
+    font-size: 0.8rem;
+  }
+}
